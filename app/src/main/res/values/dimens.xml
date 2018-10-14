@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marvel_hero_header_name">20sp</dimen>
+    <dimen name="marvel_hero_attr_header">16sp</dimen>
+    <dimen name="marvel_hero_attr_content">15sp</dimen>
+    <dimen name="marvel_hero_detail_header">25sp</dimen>
+    <dimen name="attr_descr_padding_start">15dp</dimen>
+    <dimen name="attr_descr_text_size">16sp</dimen>
+    <dimen name="attr_content_margin_start">30dp</dimen>
+    <dimen name="attr_content_padding">5dp</dimen>
+    <dimen name="list_item_margins_left_right">10dp</dimen>
+    <dimen name="list_item_margins_top_bottom">5dp</dimen>
+    <dimen name="marvel_list_header_padding">5dp</dimen>
+    <dimen name="user_entry_lines_margins_left_right">25dp</dimen>
+    <dimen name="user_entry_form_text_size">15sp</dimen>
+    <dimen name="selected_hero_image_dimens">200dp</dimen>
+    <dimen name="list_item_hero_image_size">150dp</dimen>
+    <dimen name="custom_toast_margin_left_right">50dp</dimen>
+    <dimen name="custom_toast_image_size">25dp</dimen>
+    <dimen name="custom_toast_padding">15dp</dimen>
+    <dimen name="custom_toast_corners">5dp</dimen>
+    <dimen name="custom_toast_bottom_offset">50</dimen>
+</resources>

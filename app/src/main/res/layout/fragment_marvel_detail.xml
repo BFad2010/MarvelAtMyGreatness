@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/marvel_detail_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marvel_list_item_back_color_bright"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/marvel_hero_detail_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/marvel_hero_detail_header"/>
+        <ImageView
+            android:id="@+id/marvel_hero_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_hero_image_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marvel_list_item_back_color_dark"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:paddingStart="@dimen/attr_descr_padding_start"
+            android:text="@string/hero_real_name"/>
+
+        <TextView
+            android:id="@+id/marvel_hero_detail_real_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/attr_content_margin_start"
+            android:paddingTop="@dimen/attr_content_padding"
+            android:paddingBottom="@dimen/attr_content_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marvel_list_item_back_color_dark"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:paddingStart="@dimen/attr_descr_padding_start"
+            android:text="@string/hero_team"/>
+
+        <TextView
+            android:id="@+id/marvel_hero_detail_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/attr_content_margin_start"
+            android:paddingTop="@dimen/attr_content_padding"
+            android:paddingBottom="@dimen/attr_content_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marvel_list_item_back_color_dark"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:paddingStart="@dimen/attr_descr_padding_start"
+            android:text="@string/hero_created_by"/>
+
+        <TextView
+            android:id="@+id/marvel_hero_detail_created_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/attr_content_margin_start"
+            android:paddingTop="@dimen/attr_content_padding"
+            android:paddingBottom="@dimen/attr_content_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marvel_list_item_back_color_dark"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:paddingStart="@dimen/attr_descr_padding_start"
+            android:text="@string/hero_publisher"/>
+
+        <TextView
+            android:id="@+id/marvel_hero_detail_publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/attr_content_margin_start"
+            android:paddingTop="@dimen/attr_content_padding"
+            android:paddingBottom="@dimen/attr_content_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marvel_list_item_back_color_dark"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:paddingStart="@dimen/attr_descr_padding_start"
+            android:text="@string/hero_first_appearance"/>
+
+        <TextView
+            android:id="@+id/marvel_hero_detail_first_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/attr_content_margin_start"
+            android:paddingTop="@dimen/attr_content_padding"
+            android:paddingBottom="@dimen/attr_content_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/marvel_list_item_back_color_dark"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:paddingStart="@dimen/attr_descr_padding_start"
+            android:text="@string/hero_bio_header"/>
+
+        <TextView
+            android:id="@+id/marvel_hero_detail_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingTop="@dimen/attr_content_padding"
+            android:paddingBottom="@dimen/attr_content_padding"/>
+
+    </LinearLayout>
+</ScrollView>

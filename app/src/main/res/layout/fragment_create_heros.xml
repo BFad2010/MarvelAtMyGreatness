@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marvel_list_item_back_color_bright">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_hero_header"
+            android:textAlignment="center"
+            android:textSize="@dimen/marvel_hero_header_name"
+            android:textColor="@android:color/white"
+            android:background="@color/marvel_list_header"
+            android:padding="@dimen/marvel_list_header_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_margins_left_right"
+            android:text="@string/hero_name"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:labelFor="@id/enter_hero_name"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+
+        <EditText
+            android:id="@+id/enter_hero_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:inputType="text"
+            android:hint="@string/create_hero_name_hint"
+            android:textSize="@dimen/user_entry_form_text_size"
+            android:textAlignment="center"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_margins_left_right"
+            android:text="@string/hero_real_name"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:labelFor="@id/enter_hero_real_name"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+
+        <EditText
+            android:id="@+id/enter_hero_real_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:inputType="text"
+            android:hint="@string/create_hero_real_name_hint"
+            android:textAlignment="center"
+            android:textSize="@dimen/user_entry_form_text_size"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom" />
+
+        <Button
+            android:id="@+id/select_hero_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/select_hero_image_button"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/marvel_hero_header_name"
+            android:textAlignment="center"
+            android:background="@drawable/submit_hero_button_normal"
+            android:elevation="5dp"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginTop="@dimen/list_item_margins_top_bottom"
+            android:layout_marginBottom="@dimen/list_item_margins_top_bottom"
+            android:padding="@dimen/list_item_margins_left_right"/>
+
+        <ImageView
+            android:id="@+id/selected_hero_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/selected_hero_image_dimens"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:background="@color/marvel_list_item_back_color_dark"
+            android:contentDescription="@string/selected_hero_image_descr" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_margins_left_right"
+            android:text="@string/hero_first_appearance"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:labelFor="@id/enter_hero_first_app"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+
+        <EditText
+            android:id="@+id/enter_hero_first_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:inputType="text"
+            android:hint="@string/create_hero_first_app_hint"
+            android:textAlignment="center"
+            android:textSize="@dimen/user_entry_form_text_size"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_margins_left_right"
+            android:text="@string/hero_created_by"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:labelFor="@id/enter_hero_created_by"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+
+        <EditText
+            android:id="@+id/enter_hero_created_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:inputType="text"
+            android:hint="@string/create_hero_created_by_hint"
+            android:textAlignment="center"
+            android:textSize="@dimen/user_entry_form_text_size"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_margins_left_right"
+            android:text="@string/hero_publisher"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+
+        <TextView
+            android:id="@+id/new_hero_publisher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/app_creator"
+            android:textSize="@dimen/user_entry_form_text_size"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_margins_left_right"
+            android:text="@string/hero_team"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:labelFor="@id/enter_hero_team"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+
+        <EditText
+            android:id="@+id/enter_hero_team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:inputType="text"
+            android:hint="@string/create_hero_team_hint"
+            android:textAlignment="center"
+            android:textSize="@dimen/user_entry_form_text_size"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom" />
+
+        <TextView
+            android:text="@string/create_hero_bio_field"
+            android:textSize="@dimen/attr_descr_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_margins_left_right"
+            android:labelFor="@id/enter_hero_bio"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom"/>
+        <EditText
+            android:id="@+id/enter_hero_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:inputType="textMultiLine"
+            android:hint="@string/create_hero_bio_hint"
+            android:textAlignment="center"
+            android:textSize="@dimen/user_entry_form_text_size"
+            android:paddingBottom="@dimen/list_item_margins_top_bottom" />
+
+        <Button
+            android:id="@+id/submit_hero_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/submit_hero"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/marvel_hero_header_name"
+            android:textAlignment="center"
+            android:background="@drawable/submit_hero_button_normal"
+            android:elevation="5dp"
+            android:layout_marginStart="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginEnd="@dimen/user_entry_lines_margins_left_right"
+            android:layout_marginBottom="@dimen/list_item_margins_top_bottom"
+            android:padding="@dimen/list_item_margins_left_right"/>
+
+    </LinearLayout>
+</ScrollView>
